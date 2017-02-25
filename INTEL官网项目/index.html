@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<style>
+			.navbar-inverse {
+				background-color: #0171c5;
+				border-color: #0171c5;
+			}
+			
+			.navbar-brand {
+				padding: 4px;
+			}
+			
+			body {
+				padding-top: 70px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<!--手机端-->
+				<div class="navbar-header">
+					<!--<span class="glyphicon glyphicon-search navbar-right"></span>-->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        				<!--<span>Toggle navigation</span>-->
+       					<span class="icon-bar"></span>
+       					<span class="icon-bar"></span>
+       					<span class="icon-bar"></span>
+      				</button>
+					<a class="navbar-brand" href="#"><img src="img/logo.png" class="img-responsive" /></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<!--pc平板端-->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<!--top1-->
+
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle btn-color" data-toggle="dropdown">菜单 <span class="caret"></span></a>
+							<div class="tiao hidden-xs"></div>
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="#">Action</a>
+
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<!--top2-->
+
+					<!--<a href="#" class="navbar-right navbar-text">登入</a>-->
+					<ul class="nav navbar-right navbar-nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								登入
+							</a>
+							<ul class="dropdown-menu ww">
+								<li>
+									<h2>登入</h2>
+									<h4>你是否在英特尔工作？</h4>
+									<form action="" id="logo">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="用户名" />
+
+										</div>
+										<div class="form-group">
+											<input type="password" class="form-control" placeholder="密码" />
+										</div>
+										<h4>你登入表示您同意我们的条款</h4>
+										<button class="btn btn-info">登入</button>
+									</form>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<a href="#" class="navbar-right navbar-text">
+						China（简体中文）
+
+					</a>
+
+					<form class="navbar-form navbar-right" role="search">
+						<div class="form-group has-feedback">
+							<input type="text" class="form-control" placeholder="搜索">
+							<span class="glyphicon glyphicon-search form-control-feedback"></span>
+						</div>
+					</form>
+					<p class="navbar-right navbar-text hidden-xs">|</p>
+					<a href="#" class="navbar-right navbar-text">查找内容</a>
+					<!--top3-->
+
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+
+		<div id="main">
+			<div class="container">
+				<h1>欢迎</h1>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="banner">
+							<a href="#">
+								<img src="img/intel.web.864.486.1.jpg" class="img-responsive" />
+							</a>
+							<!--广告语-->
+							<div class="adv-text">
+								<h1>五代</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ea nesciunt architecto nostrum numquam labore molestias ad optio molestiae saepe unde perspiciatis ex at tempora quod fugit magnam omnis praesentium.</p>
+								<a href="#" class="btn btn-primary">查看详情</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-sm-6 col-md-12">
+								<!--小广告-->
+								<div class="adv-small">
+									<a href="#">
+										<img src="img/intel.web.368.207.1.jpg" class="img-responsive" />
+									</a>
+									<!--遮罩层-->
+									<div class="adv-mask">
+										<h3>解密2合一电脑</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum cupiditate quisquam architecto quos minima accusamus.</p>
+										<a href="#">了解更多</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-12">
+								<div class="adv-samll02">
+									<div class="imgbox"><img src="img/intel.web.81.108.png" alt="" /></div>
+									<ul class="list-unstyled">
+										<li>
+											<a href="#">英特尔</a>
+										</li>
+										<li>
+											<a href="#">英特尔</a>
+										</li>
+										<li>
+											<a href="#">英特尔</a>
+										</li>
+										<li>
+											<a href="#">英特尔</a>
+										</li>
+										<li>
+											<a href="#">英特尔</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="row">
+
+							<div class="col-sm-6 col-md-12">
+								<div class="adv-samll02 no2">
+									<ul class="list-unstyled">
+										<li>
+											<a href="#">升级办公利器，</a>
+										</li>
+										<li>
+											<a href="#">升级办公利器，</a>
+										</li>
+										<li>
+											<a href="#">升级办公利器，</a>
+										</li>
+										<li>
+											<a href="#">升级办公利器，</a>
+										</li>
+										<li>
+											<a href="#">升级办公利器，</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-12">
+								<!--小广告-->
+								<div class="adv-small tebie">
+									<a href="#">
+										<img src="img/intel.web.368.207.2.jpg" class="img-responsive" />
+									</a>
+									<!--遮罩层-->
+									<div class="adv-mask">
+										<h3>解密2合一电脑</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum cupiditate quisquam architecto quos minima accusamus.</p>
+										<a href="#">了解更多</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="banner">
+							<a href="#">
+								<img src="img/intel.web.864.486.2.jpg" class="img-responsive" />
+							</a>
+							<!--广告语-->
+							<div class="adv-text">
+								<h1>五代</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ea nesciunt architecto nostrum numquam labore molestias ad optio molestiae saepe unde perspiciatis ex at tempora quod fugit magnam omnis praesentium.</p>
+								<a href="#" class="btn btn-primary">查看详情</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="banner">
+							<a href="#">
+								<img src="img/intel.web.864.486.3.jpg" class="img-responsive" />
+							</a>
+							<!--广告语-->
+							<div class="adv-text">
+								<h1>五代</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ea nesciunt architecto nostrum numquam labore molestias ad optio molestiae saepe unde perspiciatis ex at tempora quod fugit magnam omnis praesentium.</p>
+								<a href="#" class="btn btn-primary">查看详情</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-sm-6 col-md-12">
+								<!--小广告-->
+								<div class="adv-small">
+									<a href="#">
+										<img src="img/intel.web.368.207.3.jpg" class="img-responsive" />
+									</a>
+									<!--遮罩层-->
+									<div class="adv-mask">
+										<h3>解密2合一电脑</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum cupiditate quisquam architecto quos minima accusamus.</p>
+										<a href="#">了解更多</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-12">
+								<div class="adv-samll02 no3">
+
+									<ul class="list-unstyled">
+										<li>
+											<a href="#">升级办公利器，</a>
+										</li>
+										<li>
+											<a href="#">升级办公利器，</a>
+										</li>
+										<li>
+											<a href="#">升级办公利器，</a>
+										</li>
+										<li>
+											<a href="#">升级办公利器，</a>
+										</li>
+										<li>
+											<a href="#">升级办公利器，</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-xs-6">
+						<h3>关于</h3>
+						<ul class="nav nav-pills nav-stacked">
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<h3>关于</h3>
+						<ul class="nav nav-pills nav-stacked">
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<h3>关于</h3>
+						<ul class="nav nav-pills nav-stacked">
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<h3>关于</h3>
+						<ul class="nav nav-pills nav-stacked">
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+							<li>
+								<a href="#">公司信息</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

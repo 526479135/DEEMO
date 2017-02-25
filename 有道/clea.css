@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a{color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6{text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+
+
+/*公共类*/
+.w{
+    width: 1063px;
+    margin: 0 auto;
+}
+
+
+/*头部开始*/
+.one{
+
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #DEDEDE;
+
+}
+.top{
+    height: 63px;
+    position: relative;
+
+}
+.top ul{
+    position: absolute;
+    right: 100px;
+    top: 0px;
+}
+.top li{
+    float: left;
+    font: 400 16px/60px "微软雅黑";
+    color: #000000;
+    margin-right: 45px;
+    
+}
+.huodong{
+    border-bottom: 3px solid #139FF7;
+}
+
+/*图片部分开始*/
+.content{
+    height: 480px;
+    padding: 17px 50px 0 124px;
+}
+.content ul{
+    margin-top: 16px;;
+}
+.content li{
+    float: left;
+    margin-right: 5px;
+}
+
+/*ul部分开始*/
+.three{
+    border-bottom: 1px solid #5f5f5f;
+    background-color: #434343;
+    height: 276px;
+
+}
+.flooter{
+    height: 276px;
+
+}
+.fudong{
+    float: left;
+    margin-right: 29px;
+}
+.fudong p{
+    width: 236px;
+    height: 62px;
+    border-bottom: 1px solid #5f5f5f;
+    font: 400 17px/17px '微软雅黑';
+    color: #ffffff;
+    position: relative;
+}
+.fudong span{
+    display: block;
+    position: absolute;
+    top: 37px;
+}
+.fudong ul{
+    margin-top: 30px;
+}
+.fudong li{
+    margin-bottom: 18px;
+    color: #ffffff;
+}
+
+/*结尾开始*/
+.four{
+    background-color: #434343;
+
+}
+.zhuce{
+    height: 70px;
+    text-align: center;
+    color: #000000;
+    padding-top: 32px;
+}
+.zhuce span{
+    margin: 8px;
+}
+.guanyu{
+    color: #ffffff;
+}

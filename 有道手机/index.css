@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a{color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6{text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+
+
+/*公共类*/
+.w{
+    width: 1063px;
+    margin: 0 auto;
+}
+.lf{
+    float: left;
+}
+
+/*头部开始*/
+.one{
+
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #DEDEDE;
+
+}
+.top{
+    height: 63px;
+    position: relative;
+    z-index: 999;
+}
+.top ul{
+    position: absolute;
+    right: 55px;
+    top: 0px;
+}
+.top li{
+    float: left;
+    font: 400 16px/60px "微软雅黑";
+    color: #000000;
+    margin-right: 45px;
+    height: 62px;
+    
+}
+.top li:hover .tab_boos{
+    display: block;
+}
+.huodong{
+    border-bottom: 3px solid #000;
+    font-weight: bold !important;
+}
+.tab_boos{
+    width: 2000px;
+    background-color: #fff;
+    position: absolute;
+    top: 64px;
+    right: -562px;
+    display: none;
+
+}
+.tab p{
+    /*text-align: center;*/
+
+    font: 400 12px/35px "微软雅黑";
+    color: #139ef3;
+    height: 35px;
+    margin-left: 344px; 
+}
+.tab p a{
+    color: #139ef3;
+    
+}
+
+/*图片部分开始*/
+.two{
+   /* height: 400px;*/
+    background-color: #e5f1f9;
+    overflow: hidden;
+}
+.qiao{
+    width: 468px;
+    margin-top: 75px;
+    padding-left: 75px;
+}
+.erweima{
+    width: 400px;
+    margin-left: 30px;
+}
+.ma_top{
+    height: 58px;
+    padding: 70PX 34PX 34PX 48PX;
+}
+.shouji{
+    font:500 30px/30px "微软雅黑";
+    color: #000000;
+
+}
+.book{
+    font: 400 18px/42px "微软雅黑";
+    color: #686a6b;
+}
+.ma_bottom{
+    height: 238px;
+    overflow: hidden;
+    position: relative;
+}
+.iphone,.android{
+    width: 220px;
+    height: 60px;
+    
+}
+.iphone{
+    background: url("page.png") no-repeat 0 -60px;
+    margin: 10px 0 0 48px;
+}
+.android{
+    background: url("page.png") no-repeat 0 -120px;
+    margin: 20px 0 0 48px;
+}
+.ma_bottom p{
+    color: #949494;
+    margin: 24px 0 0 68px;
+}
+.ma_bottom p span{
+    margin: 0 12px;
+}
+.ma_bottom img{
+    position: absolute;
+    right: 49px;
+    top: 0;
+
+}
+.five{
+    background-color: #f9f9f8;
+}
+.zz{
+    height: 342px;
+
+   
+}
+.zz li{
+    width: 254px;
+    height: 55px;
+    float: left;
+    position: relative;
+    padding: 80px 16px 12px 28px;
+    margin-left: 22px;
+
+}
+.wenzi{
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    left:80px;
+    top: 82px;
+
+}
+.wenzi span{
+    width: 251px;
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    color: #a0a0a0;
+
+}
+
+.pic_01,.pic_02,.pic_03,.pic_04,.pic_05,.pic_06{
+    width: 42px;
+    height: 42px;
+}
+.pic_01{
+    background: url(page.png) no-repeat right top;
+}
+.pic_02{
+    background: url(page.png) no-repeat right -42px;
+}
+.pic_03{
+    background: url(page.png) no-repeat right -84px;
+}
+.pic_04{
+    background: url(page.png) no-repeat -220px top;
+}
+.pic_05{
+    background: url(page.png) no-repeat -220px -42px;
+}
+.pic_06{
+    background: url(page.png) no-repeat -220px -84px;
+}
+
+
+/*ul部分开始*/
+.three{
+    border-bottom: 1px solid #5f5f5f;
+    background-color: #434343;
+    height: 276px;
+
+}
+.flooter{
+    height: 276px;
+
+}
+.fudong{
+    float: left;
+    margin-right: 29px;
+}
+.fudong p{
+    width: 236px;
+    height: 62px;
+    border-bottom: 1px solid #5f5f5f;
+    font: 400 17px/17px '微软雅黑';
+    color: #ffffff;
+    position: relative;
+}
+.fudong span{
+    display: block;
+    position: absolute;
+    top: 37px;
+}
+.fudong ul{
+    margin-top: 30px;
+}
+.fudong li{
+    margin-bottom: 18px;
+    color: #ffffff;
+}
+
+/*结尾开始*/
+.four{
+    background-color: #434343;
+
+}
+.zhuce{
+    height: 70px;
+    text-align: center;
+    color: #000000;
+    padding-top: 32px;
+}
+.zhuce span{
+    margin: 8px;
+}
+.guanyu{
+    color: #ffffff;
+}
